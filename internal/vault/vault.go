@@ -20,7 +20,7 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/frederikb96/tandemvault/internal/config"
+	"github.com/frederikberg/tandemvault/internal/config"
 )
 
 // Entry describes one name in a vault without its value.

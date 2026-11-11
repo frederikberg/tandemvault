@@ -6,7 +6,7 @@ section: utils
 priority: optional
 maintainer: Frederik Berg <fberg@posteo.de>
 description: Keeps selected 1Password items in step with SOPS/age vaults.
-homepage: https://github.com/frederikb96/tandemvault
+homepage: https://github.com/frederikberg/tandemvault
 license: MIT
 overrides:
   deb:

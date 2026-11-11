@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/frederikb96/tandemvault/internal/onepassword"
-	"github.com/frederikb96/tandemvault/internal/otp"
+	"github.com/frederikberg/tandemvault/internal/onepassword"
+	"github.com/frederikberg/tandemvault/internal/otp"
 )
 
 // direction says which way a field moves.

@@ -6,7 +6,7 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/frederikb96/tandemvault/internal/cli"
+	"github.com/frederikberg/tandemvault/internal/cli"
 )
 
 // version is set at build time with -ldflags "-X main.version=...".

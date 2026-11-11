@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/frederikb96/tandemvault/internal/redact"
+	"github.com/frederikberg/tandemvault/internal/redact"
 )
 
 // CLI is the backend that runs the op command. Values reach op only through

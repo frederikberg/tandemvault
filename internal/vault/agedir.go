@@ -14,8 +14,8 @@ import (
 	"filippo.io/age"
 	"filippo.io/age/armor"
 
-	"github.com/frederikb96/tandemvault/internal/config"
-	"github.com/frederikb96/tandemvault/internal/redact"
+	"github.com/frederikberg/tandemvault/internal/config"
+	"github.com/frederikberg/tandemvault/internal/redact"
 )
 
 // MinPassphraseLength is the shortest passphrase Init accepts.

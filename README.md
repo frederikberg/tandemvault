@@ -10,8 +10,8 @@ Keeps selected 1Password items in step with SOPS/age vaults on disk.
 </tr>
 </table>
 
-[![CI](https://github.com/frederikb96/tandemvault/actions/workflows/ci.yaml/badge.svg)](https://github.com/frederikb96/tandemvault/actions/workflows/ci.yaml)
-[![Release](https://img.shields.io/github/v/release/frederikb96/tandemvault)](https://github.com/frederikb96/tandemvault/releases)
+[![CI](https://github.com/frederikberg/tandemvault/actions/workflows/ci.yaml/badge.svg)](https://github.com/frederikberg/tandemvault/actions/workflows/ci.yaml)
+[![Release](https://img.shields.io/github/v/release/frederikberg/tandemvault)](https://github.com/frederikberg/tandemvault/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 1Password is where you keep the logins you use yourself. Scripts, services and agents on your machine need some of the same credentials, and they need them without a fingerprint prompt every time. tandemvault keeps two kinds of local vault for that, and syncs the items you pick between them and 1Password:
@@ -42,11 +42,11 @@ Releases are built on GitHub-hosted runners from a tag. Every release has, for l
 Download the file for your system and check it before installing. With the GitHub CLI:
 
 ```bash
-VERSION=$(gh release view --repo frederikb96/tandemvault --json tagName --jq .tagName)
+VERSION=$(gh release view --repo frederikberg/tandemvault --json tagName --jq .tagName)
 FILE="tandemvault_${VERSION#v}_amd64.deb"   # or _amd64.rpm, _amd64.pkg.tar.zst, _linux_amd64.tar.gz; arm64 likewise
-gh release download "$VERSION" --repo frederikb96/tandemvault --pattern "$FILE" --pattern checksums.txt
+gh release download "$VERSION" --repo frederikberg/tandemvault --pattern "$FILE" --pattern checksums.txt
 sha256sum --check --ignore-missing checksums.txt
-gh attestation verify "$FILE" --repo frederikb96/tandemvault
+gh attestation verify "$FILE" --repo frederikberg/tandemvault
 ```
 
 `sha256sum` must print `OK` for the file, and `gh attestation verify` must report a verified attestation from this repository's release workflow. Then install it:

@@ -6,7 +6,7 @@ import (
 
 	op "github.com/1password/onepassword-sdk-go"
 
-	"github.com/frederikb96/tandemvault/internal/redact"
+	"github.com/frederikberg/tandemvault/internal/redact"
 )
 
 // sdkAPI is the part of the 1Password SDK the backend uses.

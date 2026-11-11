@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/frederikb96/tandemvault/internal/mapping"
-	"github.com/frederikb96/tandemvault/internal/onepassword"
+	"github.com/frederikberg/tandemvault/internal/mapping"
+	"github.com/frederikberg/tandemvault/internal/onepassword"
 )
 
 // multiFlag collects a repeatable flag.

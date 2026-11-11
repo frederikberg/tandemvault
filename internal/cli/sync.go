@@ -12,9 +12,9 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/frederikb96/tandemvault/internal/engine"
-	"github.com/frederikb96/tandemvault/internal/mapping"
-	"github.com/frederikb96/tandemvault/internal/vault"
+	"github.com/frederikberg/tandemvault/internal/engine"
+	"github.com/frederikberg/tandemvault/internal/mapping"
+	"github.com/frederikberg/tandemvault/internal/vault"
 )
 
 // localEngine loads everything that needs neither 1Password nor a key.

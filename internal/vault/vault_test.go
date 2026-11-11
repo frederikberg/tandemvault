@@ -11,8 +11,8 @@ import (
 	"filippo.io/age"
 	"filippo.io/age/armor"
 
-	"github.com/frederikb96/tandemvault/internal/config"
-	"github.com/frederikb96/tandemvault/internal/testutil"
+	"github.com/frederikberg/tandemvault/internal/config"
+	"github.com/frederikberg/tandemvault/internal/testutil"
 )
 
 func init() { ScryptWorkFactor = 10 }

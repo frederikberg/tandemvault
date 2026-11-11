@@ -3,7 +3,7 @@ package engine
 import (
 	"fmt"
 
-	"github.com/frederikb96/tandemvault/internal/mapping"
+	"github.com/frederikberg/tandemvault/internal/mapping"
 )
 
 // LocalStatus lists what the next sync has to do as far as can be told
