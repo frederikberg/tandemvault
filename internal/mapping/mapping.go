@@ -19,9 +19,9 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/frederikb96/tandemvault/internal/config"
-	"github.com/frederikb96/tandemvault/internal/onepassword"
-	"github.com/frederikb96/tandemvault/internal/vault"
+	"github.com/frederikberg/tandemvault/internal/config"
+	"github.com/frederikberg/tandemvault/internal/onepassword"
+	"github.com/frederikberg/tandemvault/internal/vault"
 )
 
 // Values of Unlink.

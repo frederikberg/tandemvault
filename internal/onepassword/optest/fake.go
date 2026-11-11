@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/frederikb96/tandemvault/internal/onepassword"
+	"github.com/frederikberg/tandemvault/internal/onepassword"
 )
 
 // Fake is an in-memory onepassword.Backend. Every write bumps the item's

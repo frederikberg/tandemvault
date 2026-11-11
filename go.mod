@@ -1,4 +1,4 @@
-module github.com/frederikb96/tandemvault
+module github.com/frederikberg/tandemvault
 
 go 1.27.3
 

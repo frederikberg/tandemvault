@@ -14,8 +14,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/frederikb96/tandemvault/internal/config"
-	"github.com/frederikb96/tandemvault/internal/redact"
+	"github.com/frederikberg/tandemvault/internal/config"
+	"github.com/frederikberg/tandemvault/internal/redact"
 )
 
 // SopsDotenv is a sops-encrypted dotenv file. Every operation runs the sops

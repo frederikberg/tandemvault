@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/frederikb96/tandemvault/internal/vault"
+	"github.com/frederikberg/tandemvault/internal/vault"
 )
 
 // State is state.json: per mapping, the 1Password item version and the

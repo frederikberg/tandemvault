@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/frederikb96/tandemvault/internal/config"
-	"github.com/frederikb96/tandemvault/internal/onepassword"
+	"github.com/frederikberg/tandemvault/internal/config"
+	"github.com/frederikberg/tandemvault/internal/onepassword"
 )
 
 func cfg() *config.Config {
